@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20rem 20rem 20rem 20rem;
+    font-size: 5em;
+}
+
+
+#clock-elements {
+    color: #17D4FE;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+@media screen and (min-width: 375px) {
+    #container {
+        margin: 5rem 5rem 5rem 5rem;
+    }
+
+    #clock-elements {
+        font-size: 1em;
+    }
+}
+
+
+@media screen and (min-width: 810px) {
+    #container {
+        margin: 7rem 7rem 7rem 7rem;
+    }
+
+    #clock-elements {
+        font-size: 2em;
+    }
+}
